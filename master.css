@@ -1,0 +1,73 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container{
+padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* mobile */
+@media(min-width:375px){
+    .container{
+        width: 750px;
+    }
+}
+/* Desktop */
+@media(min-width:1440px){
+    .container{
+        width: 1170px;
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 15px;
+    font-family: 'Outfit';
+    /* font-weight: 400; */
+   background-color:  rgb(213 225 239);
+}
+/* End global rules */
+/* start design */
+/* .desin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.desin .box{
+    width: 283px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    height: 460px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    box-sizing: border-box;
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+}
+.desin .box img{
+    width: 90%;
+    margin-top: 12px;
+    border-radius: 9px;
+}
+.desin .box .box-two h2{
+    padding: 10px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.desin .box .box-two p{
+    font-weight: 400;
+    padding: 10px;
+    font-size: 15px;
+    color: #777;
+    margin-top: 0;
+    line-height: 1.4;
+}
+/* end design */
